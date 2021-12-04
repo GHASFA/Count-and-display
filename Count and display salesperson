@@ -1,0 +1,16 @@
+Select Odate, Snum
+From orders where Amt>2000
+Group by Odate, Snum order by Odate, Snum;
+
+Select Sname from Salespeople
+Where city="London" AND city="Paris";
+
+Select Sname, count(Salesperson)from
+Order where Sname like 'ay';
+
+Select city COUNT(*) from
+Salesperson where city="Newyork";
+
+Select Odate, Snum, count(*)
+From orders
+Group by Odate, Snum;
